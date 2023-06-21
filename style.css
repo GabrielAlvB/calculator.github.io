@@ -38,3 +38,33 @@ body{
     font-family: monospace;
     font-weight: 600;
 }
+
+.btn{
+    background-color: #15173c;
+    color: aliceblue;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.btn:hover{
+    background-color: #090c31;
+}
+
+#cero {
+grid-column: span 2;
+}
+
+#igual{
+    grid-row: span 2;
+    background-color: #e6394a;
+}
+
+#igual:hover {
+    background-color: #e65769;
+}
